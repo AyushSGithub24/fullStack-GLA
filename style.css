@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+}
+body{
+    background: #47474774;
+    color: red;
+}
+
+div p{
+    background: #FFFFFF;
+}
+
+div li{
+    background: bisque;
+}
+
+div li{
+    color: aqua;
+}
+

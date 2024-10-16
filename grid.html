@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .outer-box{
+        height: 94vh;
+        width: 100%;
+        background: bisque;
+        display: grid;
+        /* justify-content: space-between;
+        flex-wrap: initial; */
+        grid-template-columns: 100px 100px 100px;
+        
+    }
+    .outer-box div{
+        height: 25%;
+        width: 25%;
+        background: sandybrown;
+        margin: 2rem 2%;
+    }
+
+    .outer-box :nth-child(even){
+        background: skyblue;
+        /* align-self: last baseline; */
+    }
+
+
+</style>
+<body>
+
+    <div class="outer-box">
+        <div class="inner-box1">Hello1</div>
+        <div class="inner-box2">Hello2</div>
+        <div class="inner-box3">Hello3</div>
+        <div class="inner-box4">Hello4</div>
+    </div>
+    
+</body>
+</html>
